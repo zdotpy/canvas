@@ -1,0 +1,55 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#clCan {
+    position: absolute;
+    top: 231px;
+    left: 10px;
+    background-color: #915bce;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#clCan:hover {
+    background-color: #753e94;
+}
+
+#control1 {
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#control2 {
+    position: absolute;
+    top: 125px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#control1:hover {
+    background: rgb(116, 112, 122);
+}
+
+#control2:hover {
+    background: rgb(116, 112, 122);
+}
